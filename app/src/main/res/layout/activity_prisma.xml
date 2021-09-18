@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KubusActivity" >
+
+    <TextView
+        android:id="@+id/tv_la_prisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/luas_alas" />
+
+    <EditText
+        android:id="@+id/ed_la_prisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tv_tinggi_prisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/tinggi" />
+
+    <EditText
+        android:id="@+id/ed_tinggi_prisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tv_rumus_prisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rumus_prisma"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_hitung_prisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung" />
+
+    <TextView
+        android:id="@+id/tv_jawab_prisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jawab"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_hasil_prisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="64sp"
+        android:textStyle="bold" />
+</LinearLayout>

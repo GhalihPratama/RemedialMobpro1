@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bangun Ruang</string>
+    <string name="hitung_volume_bola">Volume Bola</string>
+    <string name="hitung_volume_tabung">Volume Tabung</string>
+    <string name="hitung_volume_kerucut">Volume Kerucut</string>
+    <string name="hitung_volume_limas">Volume Limas</string>
+    <string name="hitung_volume_prisma">Volume Prisma</string>
+    <string name="hitung_volume_balok">Volume Balok</string>
+    <string name="hitung_volume_kubus">Volume Kubus</string>
+    <string name="sisi">Masukan Sisi :</string>
+    <string name="hitung">Hitung</string>
+    <string name="jawab">Hasil Perhitungan :</string>
+    <string name="panjang">Masukan Panjang :</string>
+    <string name="lebar">Masukan Lebar :</string>
+    <string name="tinggi">Masukan Tinggi :</string>
+    <string name="luas_alas">Masukan Luas Alas Yang Sudah Dihitung :</string>
+    <string name="rumus_kubus">Rumus Volume Kubus : Sisi x Sisi x Sisi</string>
+    <string name="rumus_balok">Rumus Volume Balok : Panjang x Lebar x Tinggi</string>
+    <string name="rumus_prisma">Rumus Volume Prisma : Luas alas x Tinggi</string>
+    <string name="rumus_limas">Rumus Volume Limas : 1/3 x Luas alas x Tinggi</string>
+
+</resources>
